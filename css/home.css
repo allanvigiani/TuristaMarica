@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 /*Menu Topo*/
 #logo-menu {
@@ -14,4 +18,163 @@
     font-size: 20px;
 }
 
-/*cor:  rgb(255, 166, 0)*/
+#titulo1 {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulo2 {
+    color: rgb(255, 166, 0);
+}
+
+.text-center {
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+/*Principal*/
+#principal {
+    background-color: rgb(255, 166, 0);
+}
+
+#divRow {
+    margin-left: 10%;
+    padding: 20px;
+}
+
+#divTexto {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+/*rotativo*/
+#fotoApp {
+    width: 245px;
+    height: 445px;
+    padding: 10px;
+    margin-left: 50%;
+}
+
+#textoApp {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#subTituloApp {
+    margin-bottom: 20px;
+}
+
+.paraApp {
+    margin-bottom: 20px;
+}
+
+.icones-app {
+    width: 60px;
+}
+
+/*Álbum*/
+
+/*Álbum Destaque*/
+ul#album {
+    background-color: rgb(241, 240, 240);
+    width: 510px;
+    list-style: none;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px rgba(10,10,10,0.3);
+    border-radius: 2px;
+}
+
+.min {
+   width: 170px;
+   height: 120px;
+   padding: 5px;
+}
+
+.lbox {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+.lbox:target {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10,10,10,0.7);
+    position: fixed;
+}
+
+.box_img {
+    width: 718px;
+    height: 475px;
+    margin: 100px auto;
+}
+
+.btn {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#anterior {
+    left: 20%;
+    top: 45%;
+}
+
+#proximo {
+    right: 20%;
+    top: 45%;
+}
+
+#fechar {
+    top: 50px;
+    right: 2px;
+}
+
+.legendaFoto1 {
+    background-color: #fff;
+    opacity: 0.8;
+    margin-top: -18px;
+    width: 400px;
+    border-radius: 0 2px 0 0;
+}
+
+.legendaFoto2 {
+    background-color: #fff;
+    opacity: 0.8;
+    margin-top: -18px;
+    width: 170px;
+    border-radius: 0 2px 0 0;
+}
+
+.legendaFoto3 {
+    background-color: #fff;
+    opacity: 0.8;
+    margin-top: -18px;
+    width: 220px;
+    border-radius: 0 2px 0 0;
+}
+
+.legendaFoto1 p.paragrafoLegenda,
+.legendaFoto2 p.paragrafoLegenda,
+.legendaFoto3 p.paragrafoLegenda {
+    font-size: 12px;
+    color: black;
+    margin-left: 5px;
+}

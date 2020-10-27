@@ -10,6 +10,9 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!--CSS personalizado-->
     <link rel="stylesheet" href="css/home.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+    </style>
 
 </head>
 <body>
@@ -47,7 +50,98 @@
     </div>
 
     <!--Postagem-->
-    <h2>Teste</h2>
+    <div id="principal">
+        <h3 id="titulo1" class="text-center">Nosso objetivo é fazer você conhecer lugares incríveis.</h3>
+        <div class="container">
+            <div id="divRow" class="row">
+                <div id="divTexto" class="col-md-4">
+                    <p>Tenha acesso aos melhores locais da cidade de Maricá para curtir com a família ou amigos pelo melhor preço possível.</p>
+                </div>
+                <div class="col-md-8 d-none d-lg-block">
+                    <div>
+                        <!--ALBUM-->
+                        <ul id="album">            
+                            <li>
+                                <a href="#img1">
+                                    <img src="img/orla.jpg" class="min">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#img2">
+                                    <img src="img/ponta_negra_sol.jpg" class="min">
+                                </a>
+                            </li>            
+                            <li>
+                                <a href="#img3">
+                                    <img src="img/igreja.jpg" class="min">
+                                </a>
+                            </li>            
+                        </ul>            
+                        <div class="lbox" id="img1">            
+                            <div class="box_img">
+                                <a href="#img3" class="btn" id="anterior">&#171;</a>
+                                <a href="#" class="btn" id="fechar">X</a>
+                                <img src="img/orla.jpg">
+                                <div class="legendaFoto1">
+                                    <p class="paragrafoLegenda">Orla de Araçatiba em Maricá-RJ após obras de revitalização em 2018.
+                                    </p>
+                                </div>
+                                <a href="#img2" class="btn" id="proximo">&#187;</a>
+                            </div>            
+                        </div>            
+                        <div class="lbox" id="img2">            
+                            <div class="box_img">
+                                <a href="#img1" class="btn" id="anterior">&#171;</a>
+                                <a href="#" class="btn" id="fechar">X</a>
+                                <img src="img/ponta_negra_sol.jpg">
+                                <div class="legendaFoto2">
+                                    <p class="paragrafoLegenda">Pôr do Sol em Ponta Negra.</p>
+                                </div>
+                                <a href="#img3" class="btn" id="proximo">&#187;</a>
+                            </div>            
+                        </div>            
+                        <div class="lbox" id="img3">            
+                            <div class="box_img">
+                                <a href="#img2" class="btn" id="anterior">&#171;</a>
+                                <a href="#" class="btn" id="fechar">X</a>
+                                <img src="img/igreja.jpg">
+                                <div class="legendaFoto3">
+                                    <p class="paragrafoLegenda">Paróquia Nossa Senhora do Amparo.</p>
+                                </div>
+                                <a href="#img1" class="btn" id="proximo">&#187;</a>
+                            </div>            
+                        </div>            
+                    </div>
+                    <!--FIM ALBUM-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Marica Rotativo-->
+    <div id="container">
+        <h3 id="titulo2" class="text-center">Maricá Rotativo</h3>
+        <div class="row justify-content-center">
+            <div class="col-md-4 d-flex">
+                <div class="align-self-center d-none d-lg-block">
+                    <img id="fotoApp" src="img/appRotativo2.png">
+                </div>
+            </div>
+            <div id="textoApp" class="col-md-6 d-flex">
+                <div class="align-self-center">
+                    <h3 id="subTituloApp">Já pensou em não perder tempo procurando vaga?</h3>
+                    <p class="paraApp">Então baixe o Maricá Rotativo para não perder tempo procurando vaga no próximo feriadão.</p>
+                    <hr>
+                    <p>Baixe na sua loja de aplicativos.</p>
+                    <p class="paraApp">
+                        <a href="https://play.google.com/store/apps/details?id=br.com.erotativo.codemar.marica&hl=pt_BR"
+                        target="_blank"><img  class="icones-app" src="https://img.icons8.com/color/96/000000/google-play.png" /></a>
+                        <a href="https://apps.apple.com/br/app/maric%C3%A1-rotativo/id1441432795" target="_blank"><img  class="icones-app" src="https://img.icons8.com/color/96/000000/apple-app-store--v3.png" /></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
